@@ -1,0 +1,11 @@
+{% extends "no-style-please/templates/index.html" %}
+
+
+{% block footer %}
+<h3>Site Generated:</h3>
+{% set commit = get_env(name="GITHUB_SHA") %}
+<a href="https://github.com/spmadden/spm.pub/commit/{{ commit }}">https://github.com/spmadden/spm.pub/commit/{{ commit }}</a>
+<pre>from commit: {{ commit }} built on: {{ now(utc=true) }}</pre>
+<pre>{{ get_env(name="GIT_SIGNATURE_INFO", default="") }}</pre>
+{% endblock footer %}
+

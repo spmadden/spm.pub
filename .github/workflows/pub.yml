@@ -11,6 +11,14 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+      - name: Get Commit Info
+        run: |
+          {
+              echo 'GIT_SIGNATURE_INFO<<GCATFILEEOF'
+              git cat-file -p HEAD
+              git log -n1 --show-signature
+              echo GCATFILEEOF
+            } >> "$GITHUB_ENV"
       - name: Build and deploy
         uses: shalzz/zola-deploy-action@v0.20.0
         env:

@@ -153,3 +153,8 @@ TQeVuw==
 ## Chains
 - [All Secure GPG Keys](secure_keys.chain.asc)
 - [All GPG Keys](all_keys.chain.asc)
+- [Github GPG](https://github.com/spmadden.gpg)
+- [Github SSH](https://github.com/spmadden.keys)
+- [~/.ssh/authorized_keys](authorized_keys) [:lock:~/.ssh/authorized_keys](authorized_keys.gpg)
+- [~/.ssh/allowed_signers](allowed_signers) [:lock:~/.ssh/allowed_signers](allowed_signers.gpg)
+- [~/.gnupg/secure-trust](secure-trust) [:lock:~/.gnupg/secure-trust](secure-trust.gpg)
