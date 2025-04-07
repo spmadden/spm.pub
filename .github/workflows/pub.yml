@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Get Commit Info
         run: |
+          gpg --import static/secure_keys.chain.asc
+          gpg --import-ownertrust static/secure-trust
           {
               echo 'GIT_SIGNATURE_INFO<<GCATFILEEOF'
               git cat-file -p HEAD
