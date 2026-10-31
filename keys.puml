@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/deployment-diagram
+
+cloud YKPIVROOT as "[[https://spm.pub/authorities/yubico-piv-rootca-263751.crt Yubico PIV Root CA 263751]]"
+cloud YKPIVATT as "[[https://spm.pub/piv-attestation-ca.crt Yubico PIV Attestation CA]]"
+YKPIVROOT --> YKPIVATT
+
+
+
+'actor actor
+'actor/ "actor/"
+'agent agent
+'artifact artifact
+'boundary boundary
+'card card
+'circle circle
+'cloud cloud
+'collections collections
+'component component
+'control control
+'database database
+'entity entity
+'file file
+'folder folder
+'frame frame
+'interface interface
+'label label
+'node node
+'package package
+'queue queue
+'rectangle rectangle
+'stack stack
+'storage storage
+'usecase usecase
+'usecase/ "usecase/"
+@enduml
