@@ -118,39 +118,43 @@ TQeVuw==
 
 ## All Keys
 
-| ID         | Generated   | Type         | Secure                                                                                                    | Fingerprint/Public Key                                                                   | Comment                  | Used?                |
-|------------|-------------|--------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------|----------------------|
-| 0x1E022457 | 24-FEB-2008 | GPG/RSA 4096 | No                                                                                                        | [0C1E426EB10A91CD7C3DB3C4EF7DED951E022457](0C1E426EB10A91CD7C3DB3C4EF7DED951E022457.asc) |                          | Not Currently in use |
-| 0x518BCE82 | 07-JAN-2011 | GPG/RSA 2048 | No                                                                                                        | [DBB0A38A556D4A2941D724B9EB97F7A9518BCE82](DBB0A38A556D4A2941D724B9EB97F7A9518BCE82.asc) |                          | Not Currently in use | 
-| 0x617A79BE | 12-DEC-2012 | GPG/RSA 2048 | No                                                                                                        | [8F2DBFA2589AF427FFD38C882908044A617A79BE](8F2DBFA2589AF427FFD38C882908044A617A79BE.asc) | Work                     | Not Currently in use | 
-| 0x3219C862 | 16-JUN-2013 | GPG/RSA 2048 | Yes                                                                                                       | [B92B43AB922B5ACCE421F6AD0F6CA0453219C862](B92B43AB922B5ACCE421F6AD0F6CA0453219C862.asc) | Yubikey Neo              | No, Device Damaged   | 
-| 0xA651C7E9 | 26-JUL-2023 | GPG/Ed25519  | :lock:[Yes](31C3BA1203D7EE658F245B17DABA6992A651C7E9.pem)<br/>[YK5-FIPS 12846610](12846610.opgp.pem)      | [31C3BA1203D7EE658F245B17DABA6992A651C7E9](31C3BA1203D7EE658F245B17DABA6992A651C7E9.asc) | YK5NC                    | Yes                  | 
-| 0xB700D114 | 21-SEP-2023 | GPG/Ed25519  | No                                                                                                        | [7BE906741645835623356F671319D1EDB700D114](7BE906741645835623356F671319D1EDB700D114.asc) | CC-Win                   | Not Currently in use | 
-| 0xDF6810F1 | 24-SEP-2023 | GPG/Ed25519  | No                                                                                                        | [AD96E0200673E2B6D24A7D25C37E4043DF6810F1](AD96E0200673E2B6D24A7D25C37E4043DF6810F1.asc) | Code Signing Key - Pluto | Yes                  | 
-| 0x034AB2BE | 23-NOV-2023 | GPG/Ed25519  | No                                                                                                        | [93244C8572938C5DF613B26568830AB1034AB2BE](93244C8572938C5DF613B26568830AB1034AB2BE.asc) | Orcus Code Key           | Yes                  | 
-| 0x3992BBB9 | 13-DEC-2023 | GPG/Ed25519  | :lock:[Yes](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.pem)<br/>[YK5-FIPS 22363081](22363081.opgp.pem)      | [9BF59DBBF87B6EA003D1B0083C73348B3992BBB9](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.asc) | YK5Ci                    | Yes                  | 
-| 0xDA7A1B1D | 14-DEC-2023 | GPG/Ed25519  | No                                                                                                        | [FA26D1A3440DCD6248305D337054CA28DA7A1B1D](FA26D1A3440DCD6248305D337054CA28DA7A1B1D.asc) | CC-WIN                   | Yes                  |
-| 0x920DC389 | 07-JUL-2024 | PIV/ECCP384  | :lock:[Yes](C976A0187D9778277AA0118F8873EFD9920DC389.asc.crt)<br />[YK5-FIPS 22363081](22363081.opgp.pem) | [C976A0187D9778277AA0118F8873EFD9920DC389](C976A0187D9778277AA0118F8873EFD9920DC389.pem) | Code Signing Cert        | Yes                  |
-| 0x6123F973 | 07-JAN-2025 | GPG/Ed25519  | :lock:[Yes](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.pem)<br/>[YK5 30774409](30774409.opgp.pem)           | [BE76B1D4011C36AF2E82A4F37AD0BDA36123F973](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.asc) | YK5NO                    | Yes                  | 
-| 0x1E2CE49D | 17-FEB-2025 | GPG/Ed25519  | :lock:[Yes](90DC661D06B61505B9235173E5C0CEC91E2CE49D.pem)<br/>[YK5 30022271](30022271.opgp.pem)           | [90DC661D06B61505B9235173E5C0CEC91E2CE49D](90DC661D06B61505B9235173E5C0CEC91E2CE49D.asc) | YK5C                     | Yes                  | 
-| 0x1E1BFE7E | 22-FEB-2025 | GPG/RSA 4096 | :lock:[Yes](F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E.pem)<br/>[YK5-FIPS 22349532](22349532.opgp.pem)      | [F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E](F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E.asc) | YK5FR                    | Yes                  | 
+| ID         | Generated   | Type         | Secure                                                                                                    | Fingerprint/Public Key                                                                            | Comment                  | Used?                  |
+|------------|-------------|--------------|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------------|------------------------|
+| 0x1E022457 | 24-FEB-2008 | GPG/RSA 4096 | No                                                                                                        | [0C1E426EB10A91CD7C3DB3C4EF7DED951E022457](0C1E426EB10A91CD7C3DB3C4EF7DED951E022457.asc)          |                          | Not Currently in use   |
+| 0x518BCE82 | 07-JAN-2011 | GPG/RSA 2048 | No                                                                                                        | [DBB0A38A556D4A2941D724B9EB97F7A9518BCE82](DBB0A38A556D4A2941D724B9EB97F7A9518BCE82.asc)          |                          | Not Currently in use   | 
+| 0x617A79BE | 12-DEC-2012 | GPG/RSA 2048 | No                                                                                                        | [8F2DBFA2589AF427FFD38C882908044A617A79BE](8F2DBFA2589AF427FFD38C882908044A617A79BE.asc)          | Work                     | Not Currently in use   | 
+| 0x3219C862 | 16-JUN-2013 | GPG/RSA 2048 | Yes                                                                                                       | [B92B43AB922B5ACCE421F6AD0F6CA0453219C862](B92B43AB922B5ACCE421F6AD0F6CA0453219C862.asc)          | Yubikey Neo              | No, Device Damaged     | 
+| 0xA651C7E9 | 26-JUL-2023 | GPG/Ed25519  | :lock:[Yes](31C3BA1203D7EE658F245B17DABA6992A651C7E9.pem)<br/>[YK5-FIPS 12846610](12846610.opgp.pem)      | [31C3BA1203D7EE658F245B17DABA6992A651C7E9](31C3BA1203D7EE658F245B17DABA6992A651C7E9.asc)          | YK5NC                    | Yes                    | 
+| 0xB700D114 | 21-SEP-2023 | GPG/Ed25519  | No                                                                                                        | [7BE906741645835623356F671319D1EDB700D114](7BE906741645835623356F671319D1EDB700D114.asc)          | CC-Win                   | Not Currently in use   | 
+| 0xDF6810F1 | 24-SEP-2023 | GPG/Ed25519  | No                                                                                                        | [AD96E0200673E2B6D24A7D25C37E4043DF6810F1](AD96E0200673E2B6D24A7D25C37E4043DF6810F1.asc)          | Code Signing Key - Pluto | Yes                    | 
+| 0x034AB2BE | 23-NOV-2023 | GPG/Ed25519  | No                                                                                                        | [93244C8572938C5DF613B26568830AB1034AB2BE](93244C8572938C5DF613B26568830AB1034AB2BE.asc)          | Orcus Code Key           | Yes                    | 
+| 0x3992BBB9 | 13-DEC-2023 | GPG/Ed25519  | :lock:[Yes](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.pem)<br/>[YK5-FIPS 22363081](22363081.opgp.pem)      | [9BF59DBBF87B6EA003D1B0083C73348B3992BBB9](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.asc)          | YK5Ci                    | Yes                    | 
+| 0xDA7A1B1D | 14-DEC-2023 | GPG/Ed25519  | No                                                                                                        | [FA26D1A3440DCD6248305D337054CA28DA7A1B1D](FA26D1A3440DCD6248305D337054CA28DA7A1B1D.asc)          | CC-WIN                   | Yes                    |
+| 0x920DC389 | 07-JUL-2024 | PIV/ECCP384  | :lock:[Yes](C976A0187D9778277AA0118F8873EFD9920DC389.asc.crt)<br />[YK5-FIPS 22363081](22363081.opgp.pem) | [C976A0187D9778277AA0118F8873EFD9920DC389](C976A0187D9778277AA0118F8873EFD9920DC389.pem)          | Code Signing Cert        | Yes                    |
+| 0x6123F973 | 07-JAN-2025 | GPG/Ed25519  | :lock:[Yes](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.pem)<br/>[YK5 30774409](30774409.opgp.pem)           | [BE76B1D4011C36AF2E82A4F37AD0BDA36123F973](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.asc)          | YK5NO                    | Yes                    | 
+| 0x1E2CE49D | 17-FEB-2025 | GPG/Ed25519  | :lock:[Yes](90DC661D06B61505B9235173E5C0CEC91E2CE49D.pem)<br/>[YK5 30022271](30022271.opgp.pem)           | [90DC661D06B61505B9235173E5C0CEC91E2CE49D](90DC661D06B61505B9235173E5C0CEC91E2CE49D.asc)          | YK5C                     | Yes                    | 
+| 0x1E1BFE7E | 22-FEB-2025 | GPG/RSA 4096 | :lock:[Yes](F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E.pem)<br/>[YK5-FIPS 22349532](22349532.opgp.pem)      | [F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E](F69F4E002988A5DDF3D37AC1125EF0271E1BFE7E.asc)          | YK5FR                    | Yes                    |
+| 0xDBBA77C4 | 09-MAR-2025 | PIV/ECCP384  | :lock:[Yes](9A4A988524DEDE7E12F98896E882338DDBBA77C4.asc.crt)<br/>[YK5-FIPS 22349532](22349532.piv.pem)   | [9A4A988524DEDE7E12F98896E882338DDBBA77C4](9A4A988524DEDE7E12F98896E882338DDBBA77C4.pem)          | Code Signing ECC         | No, Revoked/Superceded |
+| 0x48B5C610 | 03-AUG-2026 | PIV/RSA4096  | :lock:[Yes](38148523/38148523.9a.att.pem)<br/> [YK5-FIPS 38148523](38148523/38148523.int.pem)             | [DC64BF520F47D3B09C35A529FD2A890048B5C610](38148523/DC64BF520F47D3B09C35A529FD2A890048B5C610.pem) | Code Signing RSA4k       | Yes                    |  
+| 0xF8827362 | 14-SEP-2026 | PIV/RSA4096  | :lock:[Yes](38148523/38148523.9c.att.pem)<br/> [YK5-FIPS 38148523](38148523/38148523.int.pem)             | [7F165C7BDFF98686A450EDD69D4980E6F8827362](38148523/7F165C7BDFF98686A450EDD69D4980E6F8827362.pem) | Document Signing RSA4k   | Yes                    |  
 
-- Yubico PIV Root CA 263751: [cert](yubico-piv-rootca-263751.crt)
-  - Yubico PIV Attestation CA: [cert](piv-attestation-ca.crt)
+- Yubico PIV Attestation CA: [cert](piv-attestation-ca.crt)
+    - [YK5-FIPS 22349532](22349532.piv.pem)
 - Yubico OpenPGP Attestation CA: [cert](opgp-attestation-ca.crt)
-  - [YK5-FIPS 12846610](31C3BA1203D7EE658F245B17DABA6992A651C7E9.pem)
-  - [YK5-FIPS 22363081](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.pem)
-  - [YK5 30774409](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.pem)
-  - [YK5 30022271](90DC661D06B61505B9235173E5C0CEC91E2CE49D.pem)
+    - [YK5-FIPS 12846610](31C3BA1203D7EE658F245B17DABA6992A651C7E9.pem)
+    - [YK5-FIPS 22363081](9BF59DBBF87B6EA003D1B0083C73348B3992BBB9.pem)
+    - [YK5 30774409](BE76B1D4011C36AF2E82A4F37AD0BDA36123F973.pem)
+    - [YK5 30022271](90DC661D06B61505B9235173E5C0CEC91E2CE49D.pem)
 - SSL.Com Root CA: [cert](sslcomroot-3417bb06cc6007da1b961c920b8ab4ce3fad820e4aa30b9acbc4a74ebdcebc65.crt)
-  - SSL.Com Intermediate CA: [cert](sslcomintr-f74e750a5dcf00d5e85168a60c963ec2aebdca3adb0291d3281d8f521ba6a3bd.crt)
-    - [CN=Sean P. Madden, O=Sean P. Madden, L=Wilmington, ST=Massachusetts, C=US](C976A0187D9778277AA0118F8873EFD9920DC389.pem)
+    - SSL.Com Intermediate CA: [cert](sslcomintr-f74e750a5dcf00d5e85168a60c963ec2aebdca3adb0291d3281d8f521ba6a3bd.crt)
+        - [CN=Sean P. Madden, O=Sean P. Madden, L=Wilmington, ST=Massachusetts, C=US](C976A0187D9778277AA0118F8873EFD9920DC389.pem)
+        - [CN=Sean P. Madden, O=Sean P. Madden, L=Wilmington, ST=Massachusetts, C=US](9A4A988524DEDE7E12F98896E882338DDBBA77C4.pem)
 - IdenTrust Commercial Root CA 1: [cert](IdenTrust%20Commercial%20Root%20CA%201.cer)
-  - TrustID CA A14: [cert](TrustID%20CA%20A14.cer)
-    - [EMAILADDRESS=sean@seanmadden.net, C=US, GIVENNAME=Sean, SURNAME=Madden, CN=Sean P Madden, SERIALNUMBER=A01410C0000019504BE3DA900047181](C79BD50E2B0CAED1D2011546B426426E646077CB.pem)
-
+    - TrustID CA A14: [cert](TrustID%20CA%20A14.cer)
+        - [EMAILADDRESS=sean@seanmadden.net, C=US, GIVENNAME=Sean, SURNAME=Madden, CN=Sean P Madden, SERIALNUMBER=A01410C0000019504BE3DA900047181](C79BD50E2B0CAED1D2011546B426426E646077CB.pem)
 
 ## Chains
+
 - [All Secure GPG Keys](secure_keys.chain.asc)
 - [All GPG Keys](all_keys.chain.asc)
 - [Github GPG](https://github.com/spmadden.gpg)
@@ -158,10 +162,3 @@ TQeVuw==
 - [~/.ssh/allowed_signers](allowed_signers) [:lock:~/.ssh/allowed_signers](allowed_signers.gpg)
 - [~/.gnupg/secure-trust](secure-trust) [:lock:~/.gnupg/secure-trust](secure-trust.gpg)
 - [~/.ssh/authorized_keys](authorized_keys) [:lock:~/.ssh/authorized_keys](authorized_keys.gpg)
-  - ```
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ1SDT9FXrPiPohNiYof6vfAJZaQMBd0e2QQs9OYAeQ9 openpgp:0x3B7E3C54 cardno:12846610 0xDABA6992A651C7E9 Sean P. Madden <smadden@cfs.energy>
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHD6beUXN32f3y8sRTDkBBoFOxFzu4kEXJDLpRk5IJQt openpgp:0x59FA87B6 cardno:30022271 0xE5C0CEC91E2CE49D Sean P. Madden (YK5C) <sean@seanmadden.net>
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHZ2EK2XBFKxAEHGA5L5jcMV5KJJqTYBZe7K6h9Vs1kp openpgp:0x82DB9D95 cardno:22363081 0x3C73348B3992BBB9 Sean P. Madden <sean@seanmadden.net>
-    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHk54ZL3M7x+K18DEN4XRMZP6wDd9B5SB5s0AZ8Y0Pzp openpgp:0xE72A4672 cardno:30774409 0x7AD0BDA36123F973 Sean P. Madden (YK5NO) <sean@seanmadden.net>
-    ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDPqhZMSe4aR6iIAMRRBPS1LszY/h+onC9btraOMxS0bhV4pl9jRNh70i4KKUxn1aEQNg93XA5UqHQETWooahKpDRgRkKtkV0sTlkiZ5eDvkWuGFrl6WDeTGS3Nd9A2cbe1jAxi7x2teeC4Ukar84fIpE8bq+W836SspiGf8GQ2k4JQFNaaNsmiOf2A5u9GJ0LGcOHahBzsE13TYaGkFI+E2uAkUpaH0xb7EtcLe9qzvVMHsy2pFaEqgnVkwSTA712OxlKbx3ZdvbQh2LQGe1zwTalGQwS9Q2pBOalsDcwCNsCx+cGgCQzVfnzWnhRe/GaWuv+ouMQzQGZnDTdJUJOmRMUiQSjZDlHU6+bx4vzXa9Q4OfztrYpIBmEvhNxACVXVXAa6de6J6qytywubbB42+WDQCB4npi6FwUYszoYLd91moxCQL+ksqhAJGX7AnjhZXZejdLhLxsZVhVmkVp3gnct4Pd8AGCjs7Pwq705BRixxHeC5e+1KlPRpY9o2buRTOy77tx9qj6bvqLIkBUb+OnLGmMfnO19RWLorgoJizBXnfCiJznPHbum1we61mVg5zx4wYaX4x3AWZiE+LF4QilyEyvmA1Xd37vkhaMxkXeb2Vwtxp3lqXndnN0sa2l9C/Jv88iro68M+5nmhwjpElsak3yB3+RB2wwCajGcr5Q== openpgp:0x5FAFC73E cardno:22349532 0x125EF0271E1BFE7E Sean P. Madden (YK5FR) <sean@seanmadden.net>
-    ``` 
